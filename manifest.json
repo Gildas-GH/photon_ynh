@@ -1,0 +1,36 @@
+{
+    "name": "photon_ynh",
+    "id": "photon_ynh",
+    "url": "https://developer.wordpress.com/docs/photon/",
+    "packaging_format": 1,
+    "description": {
+        "en": "Photon is an image acceleration and modification service. Images can be cropped, resized, and filtered by using a simple API.",
+        "fr": "Photon est un outil de modification et d&#39;optimisation d&#39;images. Celles-ci peuvent être rognées, redimensionnées ou filtrées avec une API simple."
+    },
+    "version": "1.0",
+    "license": "AGPL-3.0",
+    "maintainer": {
+        "name": "Gildas GH",
+        "email": "gildas@becauseofprog.fr"
+    },
+    "requirements": {
+        "yunohost": ">= 2.7.2"
+    },
+    "services": [
+        "nginx"
+     ],
+    "multi_instance": true,
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "ask": {
+                    "en": "Choose a domain for photon_ynh",
+                    "fr": "Choisissez un domaine pour photon_ynh"
+                },
+                "example": "app.domain.org"
+            }
+        ]
+    }
+}

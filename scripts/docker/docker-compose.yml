@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+    photon:
+        container_name: photon
+        restart: always
+        build: .
+        ports:
+            - __PORT__:80

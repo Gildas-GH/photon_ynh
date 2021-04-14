@@ -1,0 +1,18 @@
+{
+  "generator-dockerapp-yunohost": {
+    "beautifulName": "photon_ynh",
+    "defaultPathOption": "",
+    "forceSecureAccess": true,
+    "secureAccessOption": false,
+    "adminUserOption": false,
+    "enDescription": "Photon is an image acceleration and modification service. Images can be cropped, resized, and filtered by using a simple API.",
+    "frDescription": "Photon est un outil de modification et d'optimisation d'images. Celles-ci peuvent être rognées, redimensionnées ou filtrées avec une API simple.",
+    "urlApp": "https://developer.wordpress.com/docs/photon/",
+    "urlDockerHub": "https://hub.docker.com/_/php/",
+    "authorName": "Gildas GH",
+    "authorEmail": "gildas@becauseofprog.fr",
+    "idName": "photon_ynh",
+    "reverseProxyProtocol": "http",
+    "scriptsLoadSave": false
+  }
+}

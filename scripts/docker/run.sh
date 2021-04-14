@@ -11,3 +11,11 @@
 #
 #docker run -d --name=$app --restart always $options $image 1>&2
 #echo $?
+
+pushd docker/
+
+docker build -t photon .
+docker-compose up -d
+echo $?
+
+popd
